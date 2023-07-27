@@ -1,4 +1,4 @@
-# k8s
+##### k8s #####
 K8s configuration files
 
 ##### Commands #####
@@ -15,3 +15,5 @@ kubectl top node --sort-by='memory' --no-headers | head -1
 kubectl top pod { to view the perfomance metrics } 
 
 kubectl top pod --sort-by='cpu' --no-headers | tail -1 {Here we have used tail -1 to list the last pod in the list, which is the pod that uses the least CPU(cores) }
+
+HPA documentation: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/ 
