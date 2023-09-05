@@ -10,3 +10,4 @@ spec:
     storage: 100Mi
   hostPath:
     path: /pv/log
+    
